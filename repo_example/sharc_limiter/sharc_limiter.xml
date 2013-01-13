@@ -3,15 +3,17 @@
     <version>0.6b</version>
     <release-notes>Fixed this, fixed that..</release-notes>
     <description>LOOP is a 16-step MIDI sequencer capable of Note, Pitch bend, Control change, Channel Aftertouch, Poly Aftertouch and Program Change message output per step. 32 patterns can be stored and recalled either from the device panel or via incoming MIDI notes.</description>
-    <classification>Midi</classification>
+    <subcategories>
+  	<subcategory>StepSeq</subcategory>
+	</subcategories> 
     <author>sharc</author>
-    <site>http://forums.planetz.com/viewtopic.php?f=16&t=28778</site>
+    <site>http://forums.planetz.com/viewtopic.php?f=16&amp;t=28778</site>
     <screenshots>
-       <url>/sharc/Loop/screenshot1.png</url>
+       <url>http://psy-works.net/repo/sharc/Loop/screenshot1.png</url>
     </screenshots>
     <demo-tracks>
-       <url>/sharc/Loop/coolness.mp3</url>
-       <url>/sharc/Loop/thebiz.mp3</url>
+       <url>http://soundcloud.com/sharc/Loop/coolness.mp3</url>
+       <url>http://sharc.net/Loop/thebiz.mp3</url>
     </demo-tracks>
   </metadata>
   <files>
@@ -31,4 +33,4 @@
           <hash>ffb804eb697e9899a8100536fac187df</hash>
    </file>
   </files>
-<device>
+</device>
