@@ -1,14 +1,14 @@
 <repository>
   <devices>
-    <category name="Effects">
-      <category name="Mono">
-        <category name="Dynamics">
+    <classification type="Effects" mode="mono">
           <device id="CM1">
+          	<categories>
+          		<category>Dynamics</category>
+          		<category>Limiter</category>
+          	</categories>
             <version label="1.1" file="cm1-1.1.zip" added="31-12-2012 23:59:59" />
             <version label="1.3" file="cm1-1.3.zip" added="12-01-2013 21:42:22" />
           </device>
-        </category>
-      </category>
-    </category>
+    </type>
   </devices>
 <repository>
