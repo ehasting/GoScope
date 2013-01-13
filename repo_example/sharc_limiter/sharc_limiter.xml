@@ -1,6 +1,7 @@
 <device name="Sharc Loop Sequencer" id="Loop">
   <metadata>
     <version>0.6b</version>
+    <release-notes>Fixed this, fixed that..</release-notes>
     <description>LOOP is a 16-step MIDI sequencer capable of Note, Pitch bend, Control change, Channel Aftertouch, Poly Aftertouch and Program Change message output per step. 32 patterns can be stored and recalled either from the device panel or via incoming MIDI notes.</description>
     <classification>Midi</classification>
     <author>sharc</author>
