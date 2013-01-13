@@ -15,23 +15,20 @@
     </demo-tracks>
   </metadata>
   <files>
-    <file index="1">
+    <file>
           <name>Loop v0_6b.dev</name>
           <type>device</type>
           <hash>69b804eb697e9899a8100536fac187df</hash>
-          <version>0.6b</version>
    </file>
-    <file index="2">
+    <file>
           <name>Loop v0_6b.pre</name>
           <type>preset</type>
           <hash>h4b80deb697e9899a8100536fac187df</hash>
-          <version>0.6b</version>
    </file>
-    <file index="3">
+    <file>
           <name>Sharc_Loop.pdf</name>
           <type>pdf</type>
           <hash>ffb804eb697e9899a8100536fac187df</hash>
-          <version>0.3</version>
    </file>
   </files>
 <device>
