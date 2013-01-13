@@ -1,11 +1,10 @@
 <repository>
   <devices>
     <category name="Effects">
-      <category name="Mono">
-        <category name="Dynamics">
-          <device id="CM1">
-            <version label="1.1" file="cm1-1.1.zip" added="31-12-2012 23:59:59" />
-            <version label="1.3" file="cm1-1.3.zip" added="12-01-2013 21:42:22" />
+      <category name="Stereo">
+        <category name="EQ">
+          <device id="le-1">
+            <version label="1.0" file="LE-1_final.zip" added="31-12-2012 23:59:59" />
           </device>
         </category>
       </category>
