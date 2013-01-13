@@ -5,6 +5,13 @@
         <category name="EQ">
           <device id="le-1">
             <version label="1.0" file="LE-1_final.zip" added="31-12-2012 23:59:59" />
+            <screenshots>
+      			<url>/le-1/le-1.jpg</url>
+  			</screenshots>
+   			<demo-tracks>
+      			<url>/le-1/coolness.mp3</url>
+      			<url>/le-1/thebiz.mp3</url>
+  	 		</demo-tracks>
           </device>
         </category>
       </category>
