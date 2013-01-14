@@ -1,0 +1,30 @@
+<device name="LE-1 Loudness Enhancer" id="le-1">
+  <metadata>
+    <version>0.6b</version>
+    <release-notes>Final release, working</release-notes>
+    <description>It’s not formally a classic compressor and not a classic EQ, it’s a “signal fattener” with “eq” controls for high and low band plus a tube warmer.</description>
+    <classification>Effects/Stereo/EQ</classification>
+    <author>Erminardi</author>
+    <site>http://forums.planetz.com/viewtopic.php?f=16&t=28778</site>
+    <compatibility>
+    	<version>4.0</version>
+    	<version>4.5</version>
+    	<version>5.0</version>
+    	<version>5.1</version>
+    </compatibility>
+  </metadata>
+  <files>
+    <file index="1">
+          <name>LE-1.dev</name>
+          <type>device</type>
+          <hash>4d96e49374244d87111ad23b709e3dfa</hash>
+          <version>1.0</version>
+   </file>
+    <file index="2">
+          <name>LE-1 Loudness Enhancer.txt</name>
+          <type>text</type>
+          <hash>e45ef304dc79f15ce3d2a33a1462ccd4</hash>
+          <version>1.0</version>
+   </file>
+  </files>
+<device>
