@@ -1,8 +1,8 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 
-<device
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="device.xsd">
+<device xmlns="http://www.scope-works.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.scope-works.com device.xsd">
     <base id="anotherdevice" category="Effects/mono/Dynamics" author="niceboy"/>
     <version number="1.0" filename="anotherDevice-1.0.zip" added="2013-01-04T09:02:04" />
     <displayname>Another Device"</displayname>
@@ -12,7 +12,6 @@
         <tag>Dynamics</tag>
     </tags>
     <site>http://forums.planetz.com/viewtopic.php?f=16&amp;t=28778</site>
-  
     <media>
         <file mime="audio/mp3" type="repo-path">/blabla/hey.mp3</file>
         <file mime="image/jpg" type="url">http://www.playboy.com/screenshot.jpg</file>
