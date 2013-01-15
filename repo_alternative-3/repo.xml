@@ -43,7 +43,7 @@ Before the device header files are added, it 'just' looks like this:
 			   <url>/AnotherDevice/thebiz.mp3</url>
 			</demo-tracks>
 			<versions>
-				<version name="1.0" filename="anotherDevice-1.0.zip" added="09:02:04 04-01-2013" />
+				<version name="1.0" filename="anotherDevice-1.0.zip" added="09:02:04 04-01-2013" hash="md5 or sha1" />
 			</versions> 
 		  </device>
         </category>
