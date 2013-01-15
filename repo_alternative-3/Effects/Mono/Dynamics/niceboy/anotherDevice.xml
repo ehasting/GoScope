@@ -20,5 +20,5 @@ Not sure if we need that! Depends on what's available in the DB...
        <url>http://soundcloud.com/who/knows/coolness.mp3</url> 
        <url>/AnotherDevice/thebiz.mp3</url>
     </demo-tracks>
-    <version name="1.0" added="09:02:04 04-01-2013" />
+    <version name="1.0" filename="anotherDevice-1.0.zip" added="09:02:04 04-01-2013" />
 </device>
