@@ -3,7 +3,7 @@ Version-independent descriptor for the Loop device from Sharc device
 However, lists existing versions, and when they were uploaded, in the <versions> element.
 Not sure if we need that! Depends on what's available in the DB... 
 -->
-<device id="anotherdevice" name="Another Device">
+<device id="8F6476B0-608C-11E2-BCFD-0800200C9A66" name="Another Device">
     <description>Mono Transient Shaper</description>
     <category>Effects/mono/Dynamics</category>
     <subcategories>
