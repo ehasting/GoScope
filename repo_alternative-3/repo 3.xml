@@ -1,0 +1,48 @@
+<!--
+Nested category nodes reflect the directory structure in the repo
+
+Each device's 'header file' (same name as the device) is serialized into this documents
+
+You probably don't want to regenerate repo.xml for each request for the file.
+Safe to regenerate this file on device upload only
+-->
+
+<!--
+Before the device header files are added, it 'just' looks like this:
+
+<repository>
+  <devices>
+    <category name="Effects">
+      <category name="Mono">
+        <category name="Dynamics" />
+      </category>
+    </category>
+        <category name="Midi" />
+  </devices>
+</repository>
+-->
+
+<repository>
+    <devices>
+        <!-- content of anotherDevice.xml serialized into repo.xml here -->
+        <device>
+            <base id="8F6476B0-608C-11E2-BCFD-0800200C9A66" author="niceboy"/>
+            <displayname>Another Device"</displayname>
+            <description>Mono Transient Shaper</description>
+            <category>effects/mono/dynamics"></category>
+            <tags>
+                <tag>Transient Shaper</tag>
+                <tag>Dynamics</tag>
+            </tags>
+            <site>http://forums.planetz.com/viewtopic.php?f=16&amp;t=28778</site>
+            <media>
+                <file mime="audio/mp3" type="repo-path">/blabla/hey.mp3</file>
+                <file mime="image/jpg" type="url">http://www.playboy.com/screenshot.jpg</file>
+            </media>
+            <versions>
+                <version name="1.5" filename="anotherDevice-1.5.zip" added="09:02:04 06-05-2012" hash="md5 or sha1" />
+                <version name="1.0" filename="anotherDevice-1.0.zip" added="09:02:04 04-01-2012" hash="md5 or sha1" />
+            </versions>
+        </device>
+    </devices>
+</repository>
