@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           targetNamespace="http://www.psy-works.net/device"
-           xmlns="http://www.psy-works.net/device"
+           targetNamespace="http://www.scopeportal.com/device"
+           xmlns="http://www.scopeportal.com/device.xsd"
            elementFormDefault="qualified">
     <xs:element name="device">
         <xs:complexType>
