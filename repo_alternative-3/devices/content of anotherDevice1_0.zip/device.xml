@@ -6,7 +6,7 @@
     <version number="1.0" filename="anotherDevice-1.0.zip" added="2013-01-04T09:02:04"/>
     <displayname>Another Device</displayname>
     <description>Mono Transient Shaper</description>
-    <category>effects/mono/dynamics</category>
+    <category>Effects/Mono/Dynamics</category>
     <tags>
         <tag>Transient Shaper</tag>
         <tag>Dynamics</tag>
