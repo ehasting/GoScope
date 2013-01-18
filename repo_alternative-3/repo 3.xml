@@ -27,9 +27,9 @@ Before the device header files are added, it 'just' looks like this:
         <!-- content of anotherDevice.xml serialized into repo.xml here -->
         <device>
             <base id="8F6476B0-608C-11E2-BCFD-0800200C9A66" author="niceboy"/>
-            <displayname>Another Device"</displayname>
+            <displayname>Another Device</displayname>
             <description>Mono Transient Shaper</description>
-            <category>effects/mono/dynamics"></category>
+            <category>Effects/Mono/Dynamics"></category>
             <tags>
                 <tag>Transient Shaper</tag>
                 <tag>Dynamics</tag>
