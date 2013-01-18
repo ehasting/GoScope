@@ -1,24 +1,19 @@
-<!--
-Version-independent descriptor for the Loop device from Sharc device
-However, lists existing versions, and when they were uploaded, in the <versions> element.
-Not sure if we need that! Depends on what's available in the DB... 
--->
-<device id="8F6476B0-608C-11E2-BCFD-0800200C9A66" name="Another Device">
+<?xml version="1.0" encoding="UTF-8"?>
+<device xmlns="http://www.psy-works.net/device" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.psy-works.net/device device.xsd">
+    <base id="8F6476B0-608C-11E2-BCFD-0800200C9A66" author="niceboy"/>
+    <version number="1.0" filename="anotherDevice-1.0.zip" added="2013-01-04T09:02:04"/>
+    <displayname>Another Device</displayname>
     <description>Mono Transient Shaper</description>
-    <category>Effects/mono/Dynamics</category>
-    <subcategories>
-		<subcategory>Transient Shaper</subcategory>
-	</subcategories> 
-    <author>niceboy</author>
+    <category>effects/mono/dynamics</category>
+    <tags>
+        <tag>Transient Shaper</tag>
+        <tag>Dynamics</tag>
+    </tags>
     <site>http://forums.planetz.com/viewtopic.php?f=16&amp;t=28778</site>
-    <screenshots>
-        <!-- relative to screenshot folder in root of repo, or hardlink -->
-       <url>/AnotherDevice/screenshot1.png</url>
-    </screenshots>
-    <demo-tracks>
-        <!-- relative to demo-track folder in root of repo, or hardlink -->
-       <url>http://soundcloud.com/who/knows/coolness.mp3</url> 
-       <url>/AnotherDevice/thebiz.mp3</url>
-    </demo-tracks>
-    <version name="1.0" filename="anotherDevice-1.0.zip" added="09:02:04 04-01-2013" />
+    <media>
+        <file mime="audio/mp3" type="repo-path">/blabla/hey.mp3</file>
+        <file mime="image/jpg" type="url">http://www.playboy.com/screenshot.jpg </file>
+    </media>
 </device>
