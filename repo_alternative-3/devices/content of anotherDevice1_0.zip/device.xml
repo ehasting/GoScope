@@ -8,12 +8,14 @@
     <description>Mono Transient Shaper</description>
     <category>Effects/Mono/Dynamics</category>
     <tags>
-        <tag>Transient Shaper</tag>
-        <tag>Dynamics</tag>
+        <tag type="subcategory">Transient Shaper</tag>
+        <tag type="status">Active</tag>
+        <tag type="dsp-requirement">Low</tag>
     </tags>
     <site>http://forums.planetz.com/viewtopic.php?f=16&amp;t=28778</site>
     <media>
-        <file mime="audio/mp3" type="repo-path">/blabla/hey.mp3</file>
-        <file mime="image/jpg" type="url">http://www.playboy.com/screenshot.jpg </file>
+        <file mime="audio/mp3" type="repo-path">anotherdevice/hey.mp3</file>
+        <file mime="image/jpg" type="url">http://www.playboy.com/screenshot.jpg</file>
+        <file mime="application/pdf" type="repo-path">anotherdevice/user-manual.pdf</file>
     </media>
 </device>
